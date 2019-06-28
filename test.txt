@@ -1,0 +1,4 @@
+
+docker run --rm -it -p 8443:443 grahamh/hellomkes-web:2.0 
+
+curl --insecure  https://localhost:8443
